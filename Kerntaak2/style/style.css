@@ -1,0 +1,186 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #20454F;
+}
+.container{
+	width:980px;
+	margin: 0 auto 0 auto;
+}
+.header{
+	width: 950px;
+	height: 150px;
+	background-image: url('images/header.jpg');
+}
+.menu{
+	width: 950px;
+	height: 30px;
+	background-color: #FF840B;
+	font-family: Arial;
+	font-size:16px;
+}
+
+.content-text{
+	width: 750px;
+	height:500px;
+	display: inline-block;
+	background-color: grey;
+	vertical-align:top;
+	font-family: Arial;
+	font-size:16px;
+
+}
+.sidebar{
+	width:195px;
+	height:500px;
+	display: inline-block;
+	background-color: #fff;
+	vertical-align:top;
+	font-family: Arial;
+	font-size:16px;
+}
+.footer{
+	width: 950px;
+	height: 20px;
+	background-color: #fff;
+	margin-bottom: 10px;
+	vertical-align:top;
+	font-family: Arial;
+	font-size:10px;
+}
+.footer p{
+	text-align: center;
+	margin-top:4px;
+	padding:2px;
+}
+.menu ul{
+	margin: 0; 
+	padding: 0;
+	float:left;
+}
+.menu ul li{
+	display:inline;
+}
+.menu ul li a{
+	float:left;
+	text-decoration: none;
+	padding: 5px 15px;
+	font-size:16px;
+	color:  #FFF;
+}
+.menu ul li a:hover{
+	opacity:0.3;
+}
+
+.textveld1{
+	width:498px;
+	height:248px;
+	float:left;
+	background-color: grey;
+	border:1px solid white;
+
+}
+.textveld2{
+	width:498px;
+	height:248px;
+	float:right;
+	background-color: grey;
+	border:1px solid white;
+}
+
+.image1{
+	width:250px;
+	height:250px;
+	background-image: url('images/banner2.jpg');
+	float:right;
+}
+.image2{
+	width:250px;
+	height:250px;
+	background-image: url('images/banner1.jpg');
+	float:left;
+}
+.login-form{
+	border: 1px solid #270644;
+    width: 250px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+	margin:30px auto;
+    padding: 20px;
+   	background-color:#FF840B;
+}
+.login-form label{
+	font-family: Arial;
+	font-size:16px;
+    list-style-type: none;
+    color: #fff;
+    text-shadow: #000 1px 1px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    display: block;
+}
+.login-form a{
+	text-decoration: none;
+	font-size:16px;
+	color:  #FFF;
+}
+.login-form a:hover{
+	opacity:0.3;
+}
+.login-form .submit{
+	margin-top:5px;
+}
+.register-form{
+	border: 1px solid #270644;
+    width: 250px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+	margin: 7px auto;
+    padding: 15px;
+   	background-color:#FF840B;
+}
+.register-form label{
+	font-family: Arial;
+	font-size:16px;
+    list-style-type: none;
+    color: #fff;
+    text-shadow: #000 1px 1px;
+    letter-spacing: 1px;
+    display: block;
+}
+.register-form .submit{
+	margin-top:5px;
+}
+.usertabel{
+	width:350px;
+	height: 450px;
+	border:5px solid white;
+	margin: 0 auto;
+}
+.userWelkom{
+	width:250px;
+	height:20px;
+	font-weight: bold;
+	margin: 5px 0 0 5px;
+}
+.user-info{
+	width:350px;
+	height: 450px;
+	font-weight: bold;
+}
+.productbox{
+	height:200px;
+	width:400px;
+	border:5px solid white;
+	margin:0 auto;
+	margin-top:5px;
+}
+.productinfo{
+	height:100px;
+	width:200px;
+	float:left;
+}
+.prodfoto{
+	width:150px;
+	height:150px;
+}
